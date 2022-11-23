@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "strict": true,
+        "module": "commonjs",
+        "target": "ES2021",
+        "esModuleInterop": true,
+        "allowJs": true
+    }
+}
