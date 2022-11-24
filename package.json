@@ -23,6 +23,7 @@
   "dependencies": {},
   "scripts": {
     "test": "jest --passWithNoTests",
+    "test:watch": "jest --passWithNoTests --watch",
     "test:staged": "yarn test --passWithNoTests",
     "prepare": "husky install"
   }
