@@ -22,8 +22,8 @@
   },
   "dependencies": {},
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest",
+    "test": "jest --passWithNoTests",
+    "test:staged": "yarn test --passWithNoTests",
     "prepare": "husky install"
   }
 }
