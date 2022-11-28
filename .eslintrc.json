@@ -12,7 +12,6 @@
   },
   "rules": {
     "@typescript-eslint/space-before-function-paren": "off",
-    "@typescript-eslint/strict-boolean-expressions": "off",
-    "@typescript-eslint/no-for-in-array": "off"
+    "@typescript-eslint/strict-boolean-expressions": "off"
   }
 }
