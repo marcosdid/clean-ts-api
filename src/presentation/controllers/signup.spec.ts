@@ -20,7 +20,8 @@ const makeSut = (): SutTypes => {
   const emailValidatorStub = makeEmailValidator()
   const sut = new SignUpController(emailValidatorStub)
   return {
-    sut, emailValidatorStub
+    sut,
+    emailValidatorStub
   }
 }
 
@@ -78,7 +79,9 @@ describe('SignUp Controller', () => {
     }
     const httpResponse = sut.handle(httpRequest)
     expect(httpResponse.statusCode).toBe(400)
-    expect(httpResponse.body).toEqual(new MissingParamError('passwordConfirmantion'))
+    expect(httpResponse.body).toEqual(
+      new MissingParamError('passwordConfirmantion')
+    )
   })
 
   it('Should return 400 if en email is invalid', () => {
