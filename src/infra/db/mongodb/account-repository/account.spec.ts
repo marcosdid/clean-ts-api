@@ -26,7 +26,6 @@ describe('Account Mongo Repository', () => {
       email: 'any_email',
       password: 'any_password'
     })
-    console.log(20, account)
     expect(account).toBeTruthy()
     expect(account.id).toBeTruthy()
     expect(account.name).toBe('any_name')
