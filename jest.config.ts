@@ -9,4 +9,4 @@ export default {
     '.+\\.ts$': 'ts-jest'
   },
   preset: '@shelf/jest-mongodb'
-}
+} as any
