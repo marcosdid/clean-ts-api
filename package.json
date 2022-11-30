@@ -5,7 +5,9 @@
   "author": "Marcos Alves <limafilhoguerreiro@outlook.com>",
   "license": "MIT",
   "devDependencies": {
+    "@shelf/jest-mongodb": "^4.1.3",
     "@types/jest": "29.2.3",
+    "@types/mongodb": "^4.0.7",
     "@types/node": "18.11.9",
     "@types/validator": "^13.7.10",
     "@typescript-eslint/eslint-plugin": "5.0.0",
@@ -35,6 +37,7 @@
   "dependencies": {
     "@types/bcrypt": "^5.0.0",
     "bcrypt": "^5.1.0",
+    "mongodb": "^4.12.1",
     "validator": "^13.7.0"
   }
 }
