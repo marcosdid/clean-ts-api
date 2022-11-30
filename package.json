@@ -25,7 +25,7 @@
     "typescript": "*"
   },
   "scripts": {
-    "test": "jest --passWithNoTests --silent --runInBand",
+    "test": "jest --passWithNoTests --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:watch": "yarn test --watch",
     "test:unit": "yarn test -c jest-unit-config.js",
