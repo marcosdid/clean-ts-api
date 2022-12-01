@@ -23,7 +23,7 @@ describe('SignUo Routes', () => {
         name: 'Marcos',
         email: 'marcosdid.developer@gmail.com',
         password: '123teste',
-        passwordConfirmation: '123teste'
+        passwordConfirmantion: '123teste'
       })
       .expect(200)
   })
